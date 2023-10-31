@@ -65,15 +65,6 @@
   </div>
 
 <?php include'index_footer.php';?>
-
-<script>
-setTimeout(() => {
-  const box = document.getElementById('messages');
-
-  // 👇️ hides element (still takes up space on page)
-  box.style.display = 'none';
-}, 5000);
-</script>
 </body>
 
 </html>
